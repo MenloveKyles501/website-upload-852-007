@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>超级榄王 - 热门影片片库</title>
+  <meta name="description" content="一群菜市场卖鱼佬组成的橄榄球队,要挑战卫冕冠军警队霸王花队。 香港深水埗菜市场面临拆迁,一群卖鱼佬、菜贩、猪肉荣为了争取保留市场,决定参加全港业馀橄榄球大赛,因为冠军可以赢得媒体关注和一笔巨额奖金。他们组建了“咸鱼队”,队长是曾是中学橄榄球选手的鱼贩“阿威”。他们毫无战术、体力极差,训练时洋相百出:把">
+  <meta name="keywords" content="超级榄王,香港,电影,2024,喜剧/动作/运动">
+  <meta name="theme-color" content="#f59e0b">
+  <link rel="stylesheet" href="assets/theme.css">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { background: #f9fafb; }
+    .soft-card { box-shadow: 0 10px 30px rgba(15, 23, 42, .08); }
+    .hero-pattern { background-image: radial-gradient(circle at 20% 20%, rgba(255,255,255,.50) 0, rgba(255,255,255,0) 30%), radial-gradient(circle at 80% 0%, rgba(251,191,36,.20) 0, rgba(251,191,36,0) 22%), radial-gradient(circle at 0% 100%, rgba(244,114,182,.18) 0, rgba(244,114,182,0) 25%); }
+    .poster-frame { position: relative; overflow: hidden; border-radius: 1.25rem; }
+    .poster-frame::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,.42), rgba(0,0,0,0) 45%); pointer-events: none; }
+    .line-clamp-4 { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+    .text-balance { text-wrap: balance; }
+    
+  </style>
+</head>
+<body class="min-h-screen text-gray-900">
+
+<header class="bg-gradient-to-r from-amber-50 via-white to-amber-50 sticky top-0 z-50 shadow-md">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-20">
+      <a href="index.html" class="flex items-center space-x-3 group">
+        <div class="w-12 h-12 bg-gradient-to-br from-amber-600 to-amber-800 rounded-lg flex items-center justify-center shadow-lg transform group-hover:scale-105 transition-transform">
+          <span class="text-white text-2xl font-black">片</span>
+        </div>
+        <div>
+          <h1 class="text-2xl font-bold bg-gradient-to-r from-amber-800 to-amber-600 bg-clip-text text-transparent">热门影片片库</h1>
+          <p class="text-xs text-gray-600">日韩热门影片 · 热门影片在线点播</p>
+        </div>
+      </a>
+      <nav class="hidden lg:flex items-center space-x-8">
+        <a href="index.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors relative group">首页<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-600 group-hover:w-full transition-all duration-300"></span></a>
+        <a href="categories.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors relative group">分类总览<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-600 group-hover:w-full transition-all duration-300"></span></a>
+        <a href="ranking.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors relative group">热播榜<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-600 group-hover:w-full transition-all duration-300"></span></a>
+        <a href="search.html" class="text-gray-700 hover:text-amber-700 font-medium transition-colors relative group">搜索片库<span class="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-600 group-hover:w-full transition-all duration-300"></span></a>
+      </nav>
+      <button data-menu-toggle class="lg:hidden text-gray-700" aria-label="菜单">
+        <span class="block w-6 h-0.5 bg-current mb-1.5"></span>
+        <span class="block w-6 h-0.5 bg-current mb-1.5"></span>
+        <span class="block w-6 h-0.5 bg-current"></span>
+      </button>
+    </div>
+  </div>
+  <div data-menu class="hidden lg:hidden bg-white border-t border-gray-200 shadow-lg">
+    <nav class="px-4 py-4 space-y-3">
+      <a href="index.html" class="block py-2 text-gray-700 hover:text-amber-700 font-medium">首页</a>
+      <a href="categories.html" class="block py-2 text-gray-700 hover:text-amber-700 font-medium">分类总览</a>
+      <a href="ranking.html" class="block py-2 text-gray-700 hover:text-amber-700 font-medium">热播榜</a>
+      <a href="search.html" class="block py-2 text-gray-700 hover:text-amber-700 font-medium">搜索片库</a>
+    </nav>
+  </div>
+</header>
+<main class="py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav class="text-sm text-gray-500 mb-6">
+      <a href="index.html" class="hover:text-amber-700">首页</a> / 
+      <a href="categories.html" class="hover:text-amber-700">分类总览</a> / 
+      <span class="text-gray-700">超级榄王</span>
+    </nav>
+
+    <section class="grid lg:grid-cols-[340px_1fr] gap-8 items-start">
+      <div class="space-y-4">
+        <div class="poster-frame soft-card bg-white">
+          <img src="posters/0723.svg" alt="超级榄王" class="w-full rounded-3xl shadow-2xl">
+        </div>
+        <div class="rounded-2xl bg-white soft-card p-4">
+          <div class="grid grid-cols-2 gap-3 text-sm">
+            <div><p class="text-gray-500">地区</p><p class="font-semibold">香港</p></div>
+            <div><p class="text-gray-500">类型</p><p class="font-semibold">电影</p></div>
+            <div><p class="text-gray-500">年份</p><p class="font-semibold">2024</p></div>
+            <div><p class="text-gray-500">编号</p><p class="font-semibold">0723</p></div>
+          </div>
+          <div class="flex flex-wrap gap-2 mt-4">
+<span class="text-xs bg-amber-50 text-amber-700 px-3 py-1 rounded-full font-medium">橄榄球</span>
+<span class="text-xs bg-amber-50 text-amber-700 px-3 py-1 rounded-full font-medium">草根</span>
+<span class="text-xs bg-amber-50 text-amber-700 px-3 py-1 rounded-full font-medium">咸鱼翻身</span>
+<span class="text-xs bg-amber-50 text-amber-700 px-3 py-1 rounded-full font-medium">港式幽默</span>
+<span class="text-xs bg-amber-50 text-amber-700 px-3 py-1 rounded-full font-medium">励志</span>
+</div>
+        </div>
+      </div>
+
+      <div class="space-y-8">
+        <div class="rounded-3xl bg-white soft-card p-6 md:p-8 border border-gray-100">
+          <div class="flex flex-wrap items-center gap-2 text-xs text-gray-500 mb-4">
+            <span class="px-2 py-1 rounded-full bg-amber-50 text-amber-700">香港</span>
+            <span class="px-2 py-1 rounded-full bg-gray-100">电影</span>
+            <span class="px-2 py-1 rounded-full bg-gray-100">2024</span>
+            <span class="px-2 py-1 rounded-full bg-gray-100">No.873</span>
+          </div>
+          <h1 class="text-4xl font-black leading-tight text-balance">超级榄王</h1>
+          <p class="mt-4 text-lg text-gray-700 leading-relaxed">一群菜市场卖鱼佬组成的橄榄球队,要挑战卫冕冠军警队霸王花队。</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href="#player" class="px-5 py-3 rounded-full bg-amber-600 text-white font-bold hover:bg-amber-700 transition-colors">立即播放</a>
+            <a href="ranking.html" class="px-5 py-3 rounded-full bg-gray-100 text-gray-700 font-bold hover:bg-gray-200 transition-colors">返回榜单</a>
+          </div>
+        </div>
+
+        <div id="player" class="rounded-3xl bg-white soft-card p-4 md:p-6 border border-gray-100" data-player data-src="https://customer-7t103rn8rocxo5v6.cloudflarestream.com/41cb67b47a3668efaea014219666e659/manifest/video.m3u8">
+          <div class="flex items-center justify-between gap-4 mb-4">
+            <div>
+              <h2 class="text-2xl font-black">播放器</h2>
+              <p class="text-sm text-gray-500 mt-1" data-status>准备中…</p>
+            </div>
+            <div class="flex flex-wrap gap-2 text-sm">
+              <button data-action="play" class="px-4 py-2 rounded-full bg-gray-900 text-white hover:bg-gray-800">播放</button>
+              <button data-action="mute" class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">静音</button>
+              <button data-action="speed" class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">倍速 1x</button>
+              <button data-action="restart" class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">重播</button>
+              <button data-action="fs" class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">全屏</button>
+            </div>
+          </div>
+          <div class="player-shell rounded-2xl overflow-hidden bg-black">
+            <video class="w-full aspect-video bg-black" poster="posters/0723.svg" controls playsinline></video>
+          </div>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-6">
+          <article class="rounded-3xl bg-white soft-card p-6 border border-gray-100">
+            <h2 class="text-2xl font-black">剧情简介</h2>
+            <p class="mt-4 text-gray-700 leading-relaxed line-clamp-none">香港深水埗菜市场面临拆迁,一群卖鱼佬、菜贩、猪肉荣为了争取保留市场,决定参加全港业馀橄榄球大赛,因为冠军可以赢得媒体关注和一笔巨额奖金。他们组建了“咸鱼队”,队长是曾是中学橄榄球选手的鱼贩“阿威”。他们毫无战术、体力极差,训练时洋相百出:把球传给了旁边卖菜的阿姨、把自己的球门当成了鱼摊。而他们的对手是纪律严明、装备精良的警队——卫冕冠军。比赛日,咸鱼队被狂虐,上半场0比50。中场休息时,一位老菜农点醒他们:“你们打的是球吗?你们打的是命啊!”下半场,他们不再按套路,而是将菜市场的生存智慧融入比赛:用扔鱼的手法传球、用躲城管的速度突破、用砍肉的力气扑搂。最终,虽然还是输掉了比赛,却赢得了全场尊重,并成功保住了市场。</p>
+          </article>
+          <article class="rounded-3xl bg-white soft-card p-6 border border-gray-100">
+            <h2 class="text-2xl font-black">推荐点评</h2>
+            <p class="mt-4 text-gray-700 leading-relaxed line-clamp-none">港式无厘头与热血体育的完美混搭。笑点密集且接地气(鱼腥味都仿佛溢出屏幕),但内核极其励志。结尾没有强行夺冠,而是告诉观众:赢不是唯一的成功,拼尽全力捍卫自己珍视的东西,就是超级榄王。</p>
+          </article>
+        </div>
+
+        <section class="rounded-3xl bg-white soft-card p-6 border border-gray-100">
+          <div class="flex items-center justify-between gap-4 mb-5">
+            <div>
+              <h2 class="text-2xl font-black">相关推荐</h2>
+              <p class="text-sm text-gray-500 mt-1">与当前影片同类或关联作品</p>
+            </div>
+            <a href="search.html?q=香港" class="text-sm font-semibold text-amber-700">查看更多同区作品 →</a>
+          </div>
+          <div class="grid sm:grid-cols-2 xl:grid-cols-3 gap-4">
+<a href="movie-0435.html" class="group flex gap-3 rounded-2xl border border-gray-100 p-3 hover:shadow-lg hover:-translate-y-0.5 transition-all bg-gray-50/70">
+            <div class="w-20 shrink-0 rounded-xl overflow-hidden shadow-sm">
+              <img src="posters/0435.svg" alt="周末" class="w-full h-full object-cover">
+            </div>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-gray-500">2023 · 法国</p>
+              <h3 class="mt-1 font-semibold text-gray-900 line-clamp-2">周末</h3>
+              <p class="mt-2 text-xs text-gray-500 line-clamp-2">一对三年没说话的兄妹必须一起处理父亲的遗物,而遗嘱藏在父亲生前最爱的、随时会报废的破房车里。</p>
+            </div>
+          </a>
+<a href="movie-0273.html" class="group flex gap-3 rounded-2xl border border-gray-100 p-3 hover:shadow-lg hover:-translate-y-0.5 transition-all bg-gray-50/70">
+            <div class="w-20 shrink-0 rounded-xl overflow-hidden shadow-sm">
+              <img src="posters/0273.svg" alt="唐廷传之陈塘恩仇" class="w-full h-full object-cover">
+            </div>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-gray-500">2026 · 中国大陆</p>
+              <h3 class="mt-1 font-semibold text-gray-900 line-clamp-2">唐廷传之陈塘恩仇</h3>
+              <p class="mt-2 text-xs text-gray-500 line-clamp-2">少年唐廷为报父仇潜入陈塘李家,却发现灭门凶手竟是自己最敬重的结义兄长。</p>
+            </div>
+          </a>
+<a href="movie-0096.html" class="group flex gap-3 rounded-2xl border border-gray-100 p-3 hover:shadow-lg hover:-translate-y-0.5 transition-all bg-gray-50/70">
+            <div class="w-20 shrink-0 rounded-xl overflow-hidden shadow-sm">
+              <img src="posters/0096.svg" alt="钟路布尔斯" class="w-full h-full object-cover">
+            </div>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-gray-500">2023 · 韩国</p>
+              <h3 class="mt-1 font-semibold text-gray-900 line-clamp-2">钟路布尔斯</h3>
+              <p class="mt-2 text-xs text-gray-500 line-clamp-2">钟路一栋即将拆迁的老楼里,住着三个金盆洗手的传奇“布尔斯”(老大),为守护最后的根据地不得不重操旧业。</p>
+            </div>
+          </a>
+<a href="movie-0368.html" class="group flex gap-3 rounded-2xl border border-gray-100 p-3 hover:shadow-lg hover:-translate-y-0.5 transition-all bg-gray-50/70">
+            <div class="w-20 shrink-0 rounded-xl overflow-hidden shadow-sm">
+              <img src="posters/0368.svg" alt="诡替身" class="w-full h-full object-cover">
+            </div>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-gray-500">2012 · 中国大陆</p>
+              <h3 class="mt-1 font-semibold text-gray-900 line-clamp-2">诡替身</h3>
+              <p class="mt-2 text-xs text-gray-500 line-clamp-2">一剧组在深山别墅拍恐怖片,所有演员接连离奇死亡,而唯一的共同点是——他们都曾用过同一个替身。</p>
+            </div>
+          </a>
+<a href="movie-0147.html" class="group flex gap-3 rounded-2xl border border-gray-100 p-3 hover:shadow-lg hover:-translate-y-0.5 transition-all bg-gray-50/70">
+            <div class="w-20 shrink-0 rounded-xl overflow-hidden shadow-sm">
+              <img src="posters/0147.svg" alt="别惹前女友" class="w-full h-full object-cover">
+            </div>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-gray-500">2024 · 中国大陆</p>
+              <h3 class="mt-1 font-semibold text-gray-900 line-clamp-2">别惹前女友</h3>
+              <p class="mt-2 text-xs text-gray-500 line-clamp-2">被出轨的女总裁伪装成实习生潜伏进前男友公司,搞垮他的商业帝国。</p>
+            </div>
+          </a>
+<a href="movie-0500.html" class="group flex gap-3 rounded-2xl border border-gray-100 p-3 hover:shadow-lg hover:-translate-y-0.5 transition-all bg-gray-50/70">
+            <div class="w-20 shrink-0 rounded-xl overflow-hidden shadow-sm">
+              <img src="posters/0500.svg" alt="时空送货人" class="w-full h-full object-cover">
+            </div>
+            <div class="min-w-0 flex-1">
+              <p class="text-xs text-gray-500">2018 · 中国大陆</p>
+              <h3 class="mt-1 font-semibold text-gray-900 line-clamp-2">时空送货人</h3>
+              <p class="mt-2 text-xs text-gray-500 line-clamp-2">一个外卖小哥被未来组织征召,专门给不同时空的客户“送餐”,结果送出了大麻烦。</p>
+            </div>
+          </a>
+</div>
+        </section>
+      </div>
+    </section>
+  </div>
+</main>
+<footer class="mt-16 bg-gray-900 text-gray-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-xl font-bold text-white mb-3">热门影片片库</h3>
+        <p class="text-sm leading-relaxed text-gray-400">汇总日韩热门影片页面，结合热度片库和分类片单，适合查看近期高关注影片。</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-3">快速入口</h4>
+        <div class="space-y-2 text-sm">
+          <a class="block hover:text-white" href="categories.html">分类总览</a>
+          <a class="block hover:text-white" href="ranking.html">热播榜单</a>
+          <a class="block hover:text-white" href="search.html">搜索片库</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-3">说明</h4>
+        <p class="text-sm leading-relaxed text-gray-400">本站为纯静态页面，已保留海量条目、详情页、分类页和播放器结构，便于直接浏览与收录。</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="module" src="assets/player.js"></script>
+<script src="assets/site.js"></script>
+</body></html>

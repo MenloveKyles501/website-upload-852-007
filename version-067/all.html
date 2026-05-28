@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全集高清在线播放片库</title>
+  <meta name="description" content="全部片库热播剧集与高清片库内容整理，提供题材筛选、榜单推荐和详情页浏览。">
+  <meta name="keywords" content="热播电视剧大全,电视剧热播榜单,热播电视剧,全集播放,高清剧集,剧集片库">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="./assets/theme.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body data-root="./">
+<header class="site-header bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="./index.html" class="flex items-center space-x-2 group site-logo" aria-label="高清剧集大全">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect x="5" y="8" width="30" height="24" rx="6" fill="currentColor" opacity="0.95"></rect>
+        <circle cx="15" cy="20" r="4" fill="#ffffff" opacity="0.92"></circle>
+        <circle cx="25" cy="20" r="4" fill="#ffffff" opacity="0.92"></circle>
+        <path d="M12 31L28 31" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+      </svg>
+        <span class="text-2xl font-bold tracking-wide">高清剧集大全</span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-6" aria-label="主导航">
+        <a href="./index.html" class="hover:text-amber-300 transition-colors font-medium">首页</a>
+        <a href="./categories.html" class="hover:text-amber-300 transition-colors font-medium">分类</a>
+        <a href="./rank.html" class="hover:text-amber-300 transition-colors font-medium">排行榜</a>
+        <a href="./all/page-1.html" class="hover:text-amber-300 transition-colors font-medium">片库</a>
+      </nav>
+      <form action="./search.html" class="hidden md:flex items-center site-search" role="search">
+        <div class="relative">
+          <input type="search" name="q" placeholder="搜索剧名、题材、地区..." class="w-64 px-4 py-2 pl-10 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-300">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+        </div>
+      </form>
+      <button class="menu-toggle md:hidden p-2 hover:bg-teal-700 rounded-lg transition-colors" type="button" aria-label="展开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel md:hidden" data-mobile-panel>
+      <form action="./search.html" class="mb-4" role="search">
+        <div class="relative">
+          <input type="search" name="q" placeholder="搜索影片..." class="w-full px-4 py-2 pl-10 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-300">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+        </div>
+      </form>
+      <nav class="mobile-nav" aria-label="移动导航">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rank.html">排行榜</a>
+        <a href="./all/page-1.html">片库</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+  <section class="page-hero bg-gradient-to-r from-teal-600 to-cyan-600">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1>全集高清在线播放片库</h1>
+      <p>进入片库首页浏览热播内容。</p>
+      <a href="all/page-1.html" class="hero-primary">进入片库</a>
+    </div>
+  </section>
+</main>
+<footer class="bg-gradient-to-b from-gray-800 to-gray-900 text-gray-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="footer-grid">
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">高清剧集大全</h2>
+        <p class="leading-relaxed">汇总热播电视剧榜单内容，按热度与题材整理剧集页面，适合查看近期热播剧。</p>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">频道入口</h2>
+        <ul class="space-y-2">
+          <li><a href="./categories.html" class="hover:text-amber-400 transition-colors">分类总览</a></li>
+          <li><a href="./rank.html" class="hover:text-amber-400 transition-colors">热播榜单</a></li>
+          <li><a href="./all/page-1.html" class="hover:text-amber-400 transition-colors">全部片库</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">热门题材</h2>
+        <ul class="space-y-2">
+          <li><a href="./category/genre-juqing.html" class="hover:text-amber-400 transition-colors">剧情</a></li>
+          <li><a href="./category/genre-xuanyi.html" class="hover:text-amber-400 transition-colors">悬疑</a></li>
+          <li><a href="./category/genre-aiqing.html" class="hover:text-amber-400 transition-colors">爱情</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">精选类型</h2>
+        <ul class="space-y-2">
+          <li><a href="./category/type-series.html" class="hover:text-amber-400 transition-colors">剧集片库</a></li>
+          <li><a href="./category/type-movie.html" class="hover:text-amber-400 transition-colors">电影片库</a></li>
+          <li><a href="./search.html" class="hover:text-amber-400 transition-colors">搜索内容</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+      © 2026 高清剧集大全. 热播剧集与高清片库内容导航。
+    </div>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>搜索-推荐电视剧大全</title>
+  <meta name="description" content="站内搜索与筛选页面，支持按关键词、地区、类型与题材快速查找影片。">
+  <meta name="keywords" content="搜索,筛选,电视剧搜索,剧集检索,高清剧集">
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">剧</span>
+      <span class="brand-text"><strong>高清剧集大全</strong><small>推荐电视剧大全</small></span>
+    </a>
+    <button class="menu-toggle" data-menu-toggle aria-label="展开导航"><span></span><span></span><span></span></button>
+    <nav class="main-nav" data-menu-panel><a class="nav-link" href="index.html">首页</a><a class="nav-link" href="categories.html">分类</a><a class="nav-link" href="ranking.html">排行榜</a><a class="nav-link active" href="search.html">搜索</a><a class="nav-link" href="about.html">关于</a><a class="nav-link" href="help.html">帮助</a></nav>
+  </div>
+</header>
+
+<section class="category-hero"><div class="container"><div class="category-banner"><div class="crumbs"><a href="index.html">首页</a> / 搜索</div><h1>搜索与筛选</h1><p>输入关键词即可在全站片单中检索，支持地区、类型、题材与排序筛选。</p></div></div></section>
+<section class="section"><div class="container"><div class="panel section-panel">
+    <div class="section-heading">
+      <div class="section-kicker">Search</div>
+      <h2>站内快速查找</h2>
+      <p>覆盖全部 2000 部影片的静态搜索索引。</p>
+    </div>
+    <div class="filter-bar"><input class="input" data-search-input type="search" placeholder="输入影片名、地区、类型或题材关键词..."><select class="select" data-filter-region><option>全部</option><option>中国大陆</option><option>国产</option><option>欧美</option><option>日韩</option></select><select class="select" data-filter-type><option>全部</option><option>电影</option><option>剧集</option><option>综艺</option><option>动漫</option><option>电影/动画</option></select><select class="select" data-filter-genre><option>全部</option><option>悬疑</option><option>爱情</option><option>家庭</option><option>恐怖</option><option>科幻</option><option>剧情</option><option>冒险</option><option>喜剧</option><option>奇幻</option><option>犯罪</option></select><select class="select" data-sort><option>综合</option><option>年份新→旧</option><option>年份旧→新</option><option>标题A→Z</option></select></div><div style="height:12px"></div><div class="muted" data-search-count>共找到 0 部</div><div style="height:14px"></div><div class="result-grid" data-search-results></div></div></div></section>
+
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<script src="assets/catalog.js"></script>
+<script src="assets/site.js"></script>
+<script src="assets/search.js"></script>
+</body>
+</html>

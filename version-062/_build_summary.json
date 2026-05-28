@@ -1,0 +1,12 @@
+{
+  "movies": 2000,
+  "pages": 2089,
+  "posters": 2000,
+  "regions": {
+    "guochan": 779,
+    "oumei": 720,
+    "rihan": 355,
+    "other": 146
+  },
+  "video_pool": 150
+}

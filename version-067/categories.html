@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>热播剧集分类总览-全集高清在线播放</title>
+  <meta name="description" content="分类总览热播剧集与高清片库内容整理，提供题材筛选、榜单推荐和详情页浏览。">
+  <meta name="keywords" content="热播电视剧大全,电视剧热播榜单,热播电视剧,全集播放,高清剧集,剧集片库">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="./assets/theme.css">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body data-root="./" class="">
+<header class="site-header bg-gradient-to-r from-teal-600 to-cyan-600 text-white shadow-lg sticky top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="./index.html" class="flex items-center space-x-2 group site-logo" aria-label="高清剧集大全">
+        <svg class="logo-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect x="5" y="8" width="30" height="24" rx="6" fill="currentColor" opacity="0.95"></rect>
+        <circle cx="15" cy="20" r="4" fill="#ffffff" opacity="0.92"></circle>
+        <circle cx="25" cy="20" r="4" fill="#ffffff" opacity="0.92"></circle>
+        <path d="M12 31L28 31" stroke="#ffffff" stroke-width="3" stroke-linecap="round"></path>
+      </svg>
+        <span class="text-2xl font-bold tracking-wide">高清剧集大全</span>
+      </a>
+      <nav class="hidden md:flex items-center space-x-6" aria-label="主导航">
+        <a href="./index.html" class="hover:text-amber-300 transition-colors font-medium">首页</a>
+        <a href="./categories.html" class="hover:text-amber-300 transition-colors font-medium">分类</a>
+        <a href="./rank.html" class="hover:text-amber-300 transition-colors font-medium">排行榜</a>
+        <a href="./all/page-1.html" class="hover:text-amber-300 transition-colors font-medium">片库</a>
+      </nav>
+      <form action="./search.html" class="hidden md:flex items-center site-search" role="search">
+        <div class="relative">
+          <input type="search" name="q" placeholder="搜索剧名、题材、地区..." class="w-64 px-4 py-2 pl-10 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-300">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+        </div>
+      </form>
+      <button class="menu-toggle md:hidden p-2 hover:bg-teal-700 rounded-lg transition-colors" type="button" aria-label="展开导航" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-panel md:hidden" data-mobile-panel>
+      <form action="./search.html" class="mb-4" role="search">
+        <div class="relative">
+          <input type="search" name="q" placeholder="搜索影片..." class="w-full px-4 py-2 pl-10 rounded-full text-gray-800 focus:outline-none focus:ring-2 focus:ring-amber-300">
+          <span class="search-icon" aria-hidden="true">⌕</span>
+        </div>
+      </form>
+      <nav class="mobile-nav" aria-label="移动导航">
+        <a href="./index.html">首页</a>
+        <a href="./categories.html">分类</a>
+        <a href="./rank.html">排行榜</a>
+        <a href="./all/page-1.html">片库</a>
+      </nav>
+    </div>
+  </div>
+</header>
+<main>
+<section class="page-hero bg-gradient-to-r from-teal-600 to-cyan-600">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1>热播剧集分类总览</h1>
+    <p>汇总热播电视剧榜单内容，按热度与题材整理剧集页面，适合查看近期热播剧。</p>
+  </div>
+</section>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  <section class="category-section">
+  <div class="section-title">
+  <span class="section-icon">▦</span>
+  <div>
+    <h2>类型分类</h2>
+    <p>选择感兴趣的频道进入列表页。</p>
+  </div>
+</div>
+  <div class="category-tile-grid">
+    <a class="category-tile" href="./category/type-movie.html">
+  <span>电影片库</span>
+  <em>电影</em>
+</a><a class="category-tile" href="./category/type-series.html">
+  <span>剧集片库</span>
+  <em>剧集</em>
+</a><a class="category-tile" href="./category/type-animation.html">
+  <span>动画片库</span>
+  <em>动画</em>
+</a><a class="category-tile" href="./category/type-variety.html">
+  <span>综艺片库</span>
+  <em>综艺</em>
+</a><a class="category-tile" href="./category/type-documentary.html">
+  <span>纪录片库</span>
+  <em>纪录</em>
+</a><a class="category-tile" href="./category/type-short.html">
+  <span>短片精选</span>
+  <em>短片</em>
+</a>
+  </div>
+</section><section class="category-section">
+  <div class="section-title">
+  <span class="section-icon">▦</span>
+  <div>
+    <h2>地区分类</h2>
+    <p>选择感兴趣的频道进入列表页。</p>
+  </div>
+</div>
+  <div class="category-tile-grid">
+    <a class="category-tile" href="./category/region-01.html">
+  <span>中国大陆片库</span>
+  <em>中国大陆</em>
+</a><a class="category-tile" href="./category/region-02.html">
+  <span>美国片库</span>
+  <em>美国</em>
+</a><a class="category-tile" href="./category/region-03.html">
+  <span>日本片库</span>
+  <em>日本</em>
+</a><a class="category-tile" href="./category/region-04.html">
+  <span>中国香港片库</span>
+  <em>中国香港</em>
+</a><a class="category-tile" href="./category/region-05.html">
+  <span>韩国片库</span>
+  <em>韩国</em>
+</a><a class="category-tile" href="./category/region-06.html">
+  <span>英国片库</span>
+  <em>英国</em>
+</a><a class="category-tile" href="./category/region-07.html">
+  <span>法国片库</span>
+  <em>法国</em>
+</a><a class="category-tile" href="./category/region-08.html">
+  <span>中国台湾片库</span>
+  <em>中国台湾</em>
+</a><a class="category-tile" href="./category/region-09.html">
+  <span>中国片库</span>
+  <em>中国</em>
+</a><a class="category-tile" href="./category/region-10.html">
+  <span>西班牙片库</span>
+  <em>西班牙</em>
+</a><a class="category-tile" href="./category/region-11.html">
+  <span>泰国片库</span>
+  <em>泰国</em>
+</a><a class="category-tile" href="./category/region-12.html">
+  <span>意大利片库</span>
+  <em>意大利</em>
+</a><a class="category-tile" href="./category/region-13.html">
+  <span>印度片库</span>
+  <em>印度</em>
+</a><a class="category-tile" href="./category/region-14.html">
+  <span>俄罗斯片库</span>
+  <em>俄罗斯</em>
+</a><a class="category-tile" href="./category/region-15.html">
+  <span>香港片库</span>
+  <em>香港</em>
+</a><a class="category-tile" href="./category/region-16.html">
+  <span>德国片库</span>
+  <em>德国</em>
+</a><a class="category-tile" href="./category/region-17.html">
+  <span>中国内地片库</span>
+  <em>中国内地</em>
+</a><a class="category-tile" href="./category/region-18.html">
+  <span>加拿大片库</span>
+  <em>加拿大</em>
+</a><a class="category-tile" href="./category/region-19.html">
+  <span>美国/英国片库</span>
+  <em>美国/英国</em>
+</a><a class="category-tile" href="./category/region-20.html">
+  <span>澳大利亚片库</span>
+  <em>澳大利亚</em>
+</a><a class="category-tile" href="./category/region-21.html">
+  <span>法国/德国片库</span>
+  <em>法国/德国</em>
+</a><a class="category-tile" href="./category/region-22.html">
+  <span>阿根廷片库</span>
+  <em>阿根廷</em>
+</a><a class="category-tile" href="./category/region-23.html">
+  <span>法国/比利时片库</span>
+  <em>法国/比利时</em>
+</a><a class="category-tile" href="./category/region-24.html">
+  <span>英国/美国片库</span>
+  <em>英国/美国</em>
+</a>
+  </div>
+</section><section class="category-section">
+  <div class="section-title">
+  <span class="section-icon">▦</span>
+  <div>
+    <h2>题材分类</h2>
+    <p>选择感兴趣的频道进入列表页。</p>
+  </div>
+</div>
+  <div class="category-tile-grid">
+    <a class="category-tile" href="./category/genre-juqing.html">
+  <span>剧情题材</span>
+  <em>剧情</em>
+</a><a class="category-tile" href="./category/genre-xiju.html">
+  <span>喜剧题材</span>
+  <em>喜剧</em>
+</a><a class="category-tile" href="./category/genre-aiqing.html">
+  <span>爱情题材</span>
+  <em>爱情</em>
+</a><a class="category-tile" href="./category/genre-dongzuo.html">
+  <span>动作题材</span>
+  <em>动作</em>
+</a><a class="category-tile" href="./category/genre-xuanyi.html">
+  <span>悬疑题材</span>
+  <em>悬疑</em>
+</a><a class="category-tile" href="./category/genre-fanzui.html">
+  <span>犯罪题材</span>
+  <em>犯罪</em>
+</a><a class="category-tile" href="./category/genre-kehuan.html">
+  <span>科幻题材</span>
+  <em>科幻</em>
+</a><a class="category-tile" href="./category/genre-qihuan.html">
+  <span>奇幻题材</span>
+  <em>奇幻</em>
+</a><a class="category-tile" href="./category/genre-jingsong.html">
+  <span>惊悚题材</span>
+  <em>惊悚</em>
+</a><a class="category-tile" href="./category/genre-kongbu.html">
+  <span>恐怖题材</span>
+  <em>恐怖</em>
+</a><a class="category-tile" href="./category/genre-jiating.html">
+  <span>家庭题材</span>
+  <em>家庭</em>
+</a><a class="category-tile" href="./category/genre-maoxian.html">
+  <span>冒险题材</span>
+  <em>冒险</em>
+</a><a class="category-tile" href="./category/genre-guzhuang.html">
+  <span>古装题材</span>
+  <em>古装</em>
+</a><a class="category-tile" href="./category/genre-dushi.html">
+  <span>都市题材</span>
+  <em>都市</em>
+</a><a class="category-tile" href="./category/genre-lishi.html">
+  <span>历史题材</span>
+  <em>历史</em>
+</a><a class="category-tile" href="./category/genre-zhanzheng.html">
+  <span>战争题材</span>
+  <em>战争</em>
+</a><a class="category-tile" href="./category/genre-zainan.html">
+  <span>灾难题材</span>
+  <em>灾难</em>
+</a><a class="category-tile" href="./category/genre-qingchun.html">
+  <span>青春题材</span>
+  <em>青春</em>
+</a><a class="category-tile" href="./category/genre-donghua.html">
+  <span>动画题材</span>
+  <em>动画</em>
+</a><a class="category-tile" href="./category/genre-chuanji.html">
+  <span>传记题材</span>
+  <em>传记</em>
+</a><a class="category-tile" href="./category/genre-yinyue.html">
+  <span>音乐题材</span>
+  <em>音乐</em>
+</a><a class="category-tile" href="./category/genre-yundong.html">
+  <span>运动题材</span>
+  <em>运动</em>
+</a><a class="category-tile" href="./category/genre-wuxia.html">
+  <span>武侠题材</span>
+  <em>武侠</em>
+</a><a class="category-tile" href="./category/genre-zhiye.html">
+  <span>职场题材</span>
+  <em>职场</em>
+</a><a class="category-tile" href="./category/genre-xiaoyuan.html">
+  <span>校园题材</span>
+  <em>校园</em>
+</a><a class="category-tile" href="./category/genre-jilupian.html">
+  <span>纪录题材</span>
+  <em>纪录</em>
+</a><a class="category-tile" href="./category/genre-diezhan.html">
+  <span>谍战题材</span>
+  <em>谍战</em>
+</a><a class="category-tile" href="./category/genre-niandai.html">
+  <span>年代题材</span>
+  <em>年代</em>
+</a><a class="category-tile" href="./category/genre-zhenrenxiu.html">
+  <span>真人秀题材</span>
+  <em>真人秀</em>
+</a><a class="category-tile" href="./category/genre-xibu.html">
+  <span>西部题材</span>
+  <em>西部</em>
+</a>
+  </div>
+</section>
+</div>
+</main>
+<footer class="bg-gradient-to-b from-gray-800 to-gray-900 text-gray-300">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="footer-grid">
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">高清剧集大全</h2>
+        <p class="leading-relaxed">汇总热播电视剧榜单内容，按热度与题材整理剧集页面，适合查看近期热播剧。</p>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">频道入口</h2>
+        <ul class="space-y-2">
+          <li><a href="./categories.html" class="hover:text-amber-400 transition-colors">分类总览</a></li>
+          <li><a href="./rank.html" class="hover:text-amber-400 transition-colors">热播榜单</a></li>
+          <li><a href="./all/page-1.html" class="hover:text-amber-400 transition-colors">全部片库</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">热门题材</h2>
+        <ul class="space-y-2">
+          <li><a href="./category/genre-juqing.html" class="hover:text-amber-400 transition-colors">剧情</a></li>
+          <li><a href="./category/genre-xuanyi.html" class="hover:text-amber-400 transition-colors">悬疑</a></li>
+          <li><a href="./category/genre-aiqing.html" class="hover:text-amber-400 transition-colors">爱情</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-lg font-bold text-white mb-4">精选类型</h2>
+        <ul class="space-y-2">
+          <li><a href="./category/type-series.html" class="hover:text-amber-400 transition-colors">剧集片库</a></li>
+          <li><a href="./category/type-movie.html" class="hover:text-amber-400 transition-colors">电影片库</a></li>
+          <li><a href="./search.html" class="hover:text-amber-400 transition-colors">搜索内容</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+      © 2026 高清剧集大全. 热播剧集与高清片库内容导航。
+    </div>
+  </div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
